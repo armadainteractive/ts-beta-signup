@@ -36,11 +36,6 @@ body {
     flex: 1;
 }
 
-.col{
-  padding: 1em 2.5%;
-  width: 45%;
-}
-
 @media (max-width: 600px) {
     body { 
         background-position: bottom 20px center, center;
