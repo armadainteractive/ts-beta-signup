@@ -1,8 +1,6 @@
 body { 
   margin: 0px;
   padding: 0px;
-  overflow: hidden;
-
   height: 100vh; 
 
   background-image: url(../img/Logo_Armada_Interactive.png), url(../img/armada-hero-teaser-1024x557.jpg);
