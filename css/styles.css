@@ -3,6 +3,7 @@ body {
   padding: 0px;
   height: 100vh; 
 
+  background-color: #0c182b;
   background-image: url(../img/Logo_Armada_Interactive.png), url(../img/armada-hero-teaser-1024x557.jpg);
   background-position: bottom 50px right 40px, center;
   background-repeat: no-repeat, no-repeat;
