@@ -1,4 +1,8 @@
 body { 
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+
   height: 100vh; 
 
   background-image: url(../img/Logo_Armada_Interactive.png), url(../img/armada-hero-teaser-1024x557.jpg);
@@ -38,15 +42,19 @@ body {
 
 @media (max-width: 600px) {
     body { 
-        background-position: bottom 20px center, center;
-        background-repeat: no-repeat, no-repeat;
-        -webkit-background-size: 200px, cover;
-        -moz-background-size: 200px, cover;
-        -o-background-size: 200px, cover;  
-        background-size: 200px, cover;
+        background-color: #000;
+        background-image: url(../img/Logo_Armada_Interactive.png);
+        background-position: top 10px center;
+        background-repeat: no-repeat;
+        background-size: 100px;
     }
+    #container {
+        margin: 120px 0;
+    }
+
     #mc_embed_signup {
         margin-top: 0px;
+        border-radius: 0;
         width: 100%;
         opacity: 1;
     }
